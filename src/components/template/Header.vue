@@ -38,7 +38,8 @@
           >
             Pizza
           </a>
-          <a
+          <router-link
+            to="/home"
             class="
               inline-flex
               sm:center
@@ -57,8 +58,9 @@
             "
           >
             Home
-          </a>
-          <a
+          </router-link>
+          <router-link
+            to="/menu"
             class="
               sm:center
               inline-flex
@@ -76,7 +78,7 @@
             "
           >
             Menu
-          </a>
+          </router-link>
         </div>
       </div>
     </header>
