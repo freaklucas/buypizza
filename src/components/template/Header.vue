@@ -7,11 +7,13 @@
         md:p-4
         lg:p-4
         w-full
-        text-gray-100
-        bg-gray-900
+        text-neutral-900
+        font-bold
+        bg-gray-50
         font-mono
-        shadow
+        shadow-3lg
         sm:text-sm
+        hover:shadow-3xl
       "
     >
       <div class="container mx-auto flex p-4 flex-col md:flex-row items-center">
@@ -26,6 +28,7 @@
             md:ml-auto
             inline-flex
             space-x-2
+            text-lg
           "
         >
           <a
@@ -36,14 +39,14 @@
               text-normal
             "
           >
-            Pizza
+            🍕 Pizza
           </a>
           <router-link
             class="
               inline-flex
               sm:center
               justify-end
-              hover:text-purple-300
+              hover:text-red-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
@@ -54,6 +57,7 @@
               transform
               hover:-translate-y-1 hover:scale-110
               ml-8
+              text-lg
             "
             to="/"
           >
@@ -65,7 +69,7 @@
               sm:center
               inline-flex
               justify-end
-              hover:text-purple-300
+              hover:text-red-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
