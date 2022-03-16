@@ -39,7 +39,6 @@
             Pizza
           </a>
           <router-link
-            to="/home"
             class="
               inline-flex
               sm:center
@@ -56,6 +55,7 @@
               hover:-translate-y-1 hover:scale-110
               ml-8
             "
+            to="/"
           >
             Home
           </router-link>
