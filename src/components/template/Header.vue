@@ -1,91 +1,64 @@
 <template>
-  <div class="flex items-center justify-between w-full">
-    <header
-      class="
-        items-center
-        flex-wrap
-        md:p-4
-        lg:p-4
-        w-full
-        text-neutral-900
-        font-bold
-        bg-gray-50
-        font-mono
-        shadow-3lg
-        sm:text-sm
-        hover:shadow-3xl
-      "
-    >
-      <div class="container mx-auto flex p-4 flex-col md:flex-row items-center">
+  <div class="w-full">
+    <nav class="bg-white shadow-lg">
+      <div
+        class="
+          md:flex
+          items-center
+          justify-between
+          py-2
+          px-8
+          md:px-12
+          sm:flex sm:px-4
+        "
+      >
+        <div class="flex justify-between items-center">
+          <div class="text-2xl font-bold text-gray-800 md:text-3xl">
+            <a>🍕 Pizza</a>
+          </div>
+        </div>
         <div
-          class="
-            flex
-            lg:w-full
-            sm:w-full
-            flex-wrap
-            items-center
-            text-base
-            md:ml-auto
-            inline-flex
-            space-x-2
-            text-lg
-          "
+          class="flex-row mx-auto flex p-4 flex-col md:flex-row items-center"
         >
-          <a
-            class="
-              lg:flex-auto
-              cursor-pointer
-              border-b border-transparent
-              text-normal
-            "
-          >
-            🍕 Pizza
-          </a>
           <router-link
-            class="
-              inline-flex
-              sm:center
-              justify-end
-              hover:text-red-300
-              cursor-pointer
-              border-b border-transparent
-              hover:border-indigno-600
-              sm:text-sm
-              transition
-              duration-500
-              ease-in-out
-              transform
-              hover:-translate-y-1 hover:scale-110
-              ml-8
-              text-lg
-            "
             to="/"
+            class="
+              text-gray-800
+              rounded
+              hover:bg-red-600 hover:text-gray-50 hover:font-medium
+              py-2
+              px-2
+              md:mx-1
+            "
+            >Home</router-link
           >
-            Home
-          </router-link>
           <router-link
             to="/menu"
             class="
-              sm:center
-              inline-flex
-              justify-end
-              hover:text-red-300
-              cursor-pointer
-              border-b border-transparent
-              hover:border-indigno-600
-              sm:text-sm
-              transition
-              duration-500
-              ease-in-out
-              transform
-              hover:-translate-y-1 hover:scale-110
+              text-gray-800
+              rounded
+              hover:bg-red-600 hover:text-gray-50 hover:font-medium
+              py-2
+              px-2
+              md:mx-1
             "
+            >Menu</router-link
           >
-            Menu
-          </router-link>
+          <router-link
+            to="/menu"
+            class="
+              text-gray-800
+              rounded
+              hover:bg-red-600 hover:text-gray-50 hover:font-medium
+              py-2
+              px-2
+              md:mx-1
+            "
+            >Contato</router-link
+          >
         </div>
       </div>
-    </header>
+    </nav>
   </div>
 </template>
 
