@@ -12,34 +12,15 @@
         font-mono
         shadow-lg
         sm:text-sm
+        md:w-full
       "
     >
-      <div class="container mx-auto flex p-4 flex-col md:flex-row items-center">
+      <div class="flex p-4 flex-col items-center justify-center md:center">
         <div
-          class="
-            flex
-            lg:w-2/8
-            sm:w-full
-            flex-wrap
-            items-center
-            text-base
-            md:ml-auto
-            inline-flex
-            space-x-2
-          "
+          class="lg:w-1/8 sm:w-full text-base inline-flex space-x-4 md:center"
         >
           <a
-            class="
-              lg:w-2/3
-              cursor-pointer
-              border-b border-transparent
-              hover:bg-red-600 hover:text-gray-50 hover:font-medium
-              text-gray-800
-              rounded
-              font-bold
-              px-1
-              py-1
-            "
+            class="lg:w-2/3 md:w-1/2 text-gray-800 rounded font-bold px-1 py-1"
           >
             🍕 Pizza
           </a>
@@ -53,11 +34,13 @@
               text-gray-800
               inline-flex
               sm:center
+              md:center
               justify-end
               cursor-pointer
               border-b border-transparent
               hover:bg-red-600 hover:text-gray-50 hover:font-medium
               sm:text-sm
+              md:text-sm
               transition
               duration-500
               ease-in-out
@@ -76,12 +59,14 @@
               py-1
               font-bold
               sm:center
+              md:center
               inline-flex
               justify-end
               hover:bg-red-600 hover:text-gray-50 hover:font-medium
               cursor-pointer
               border-b border-transparent
               sm:text-sm
+              md:text-sm
               transition
               duration-500
               ease-in-out
