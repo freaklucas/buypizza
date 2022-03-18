@@ -20,16 +20,25 @@
           class="lg:w-1/8 sm:w-full text-base inline-flex space-x-4 md:center"
         >
           <a
-            class="lg:w-2/3 md:w-1/2 text-gray-800 rounded font-bold px-1 py-1"
+            class="
+              lg:w-2/3
+              md:w-1/2
+              text-gray-800
+              rounded
+              font-bold
+              px-1
+              py-1
+              text-lg
+            "
           >
             🍕 Pizza
           </a>
           <router-link
             to="/menu"
             class="
-              rounded
-              px-1
-              py-1
+              rounded-sm
+              px-2
+              py-2
               font-bold
               text-gray-800
               inline-flex
@@ -46,6 +55,7 @@
               ease-in-out
               transform
               hover:-translate-y-1 hover:scale-110
+              text-lg
             "
           >
             Menu
@@ -53,10 +63,10 @@
           <router-link
             to="/"
             class="
-              rounded
+              rounded-sm
               text-gray-800
-              px-1
-              py-1
+              px-2
+              py-2
               font-bold
               sm:center
               md:center
@@ -72,6 +82,7 @@
               ease-in-out
               transform
               hover:-translate-y-1 hover:scale-110
+              text-lg
             "
           >
             Sobre
