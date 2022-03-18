@@ -33,7 +33,7 @@
               font-bold
               text-gray-800
               inline-flex
-              sm:center
+              sm:centerg
               md:center
               justify-end
               cursor-pointer
