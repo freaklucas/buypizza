@@ -1,66 +1,102 @@
 <template>
-  <div class="w-full">
-    <nav class="bg-white shadow-lg">
-      <div
-        class="
-          md:flex
-          items-center
-          justify-between
-          py-2
-          px-8
-          md:px-12
-          sm:flex sm:px-4
-        "
-      >
-        <div class="flex justify-between items-center">
-          <div class="text-2xl font-bold text-gray-800 md:text-3xl">
-            <a>🍕 Pizza</a>
-          </div>
-        </div>
+  <div class="flex items-center justify-between w-full">
+    <header
+      class="
+        items-center
+        flex-wrap
+        md:p-4
+        lg:p-4
+        w-full
+        text-gray-100
+        bg-white
+        font-mono
+        shadow-lg
+        sm:text-sm
+      "
+    >
+      <div class="container mx-auto flex p-4 flex-col md:flex-row items-center">
         <div
-          class="flex-row mx-auto flex p-4 flex-col md:flex-row items-center"
+          class="
+            flex
+            lg:w-2/8
+            sm:w-full
+            flex-wrap
+            items-center
+            text-base
+            md:ml-auto
+            inline-flex
+            space-x-2
+          "
         >
+          <a
+            class="
+              lg:w-2/3
+              cursor-pointer
+              border-b border-transparent
+              hover:bg-red-600 hover:text-gray-50 hover:font-medium
+              text-gray-800
+              rounded
+              font-bold
+              px-1
+              py-1
+            "
+          >
+            🍕 Pizza
+          </a>
+          <router-link
+            to="/menu"
+            class="
+              rounded
+              px-1
+              py-1
+              font-bold
+              text-gray-800
+              inline-flex
+              sm:center
+              justify-end
+              cursor-pointer
+              border-b border-transparent
+              hover:bg-red-600 hover:text-gray-50 hover:font-medium
+              sm:text-sm
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-110
+            "
+          >
+            Menu
+          </router-link>
           <router-link
             to="/"
             class="
-              text-gray-800
               rounded
-              hover:bg-red-600 hover:text-gray-50 hover:font-medium
-              py-2
-              px-2
-              md:mx-1
-            "
-            >Home</router-link
-          >
-          <router-link
-            to="/menu"
-            class="
               text-gray-800
-              rounded
+              px-1
+              py-1
+              font-bold
+              sm:center
+              inline-flex
+              justify-end
               hover:bg-red-600 hover:text-gray-50 hover:font-medium
-              py-2
-              px-2
-              md:mx-1
+              cursor-pointer
+              border-b border-transparent
+              sm:text-sm
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-110
             "
-            >Menu</router-link
           >
-          <router-link
-            to="/menu"
-            class="
-              text-gray-800
-              rounded
-              hover:bg-red-600 hover:text-gray-50 hover:font-medium
-              py-2
-              px-2
-              md:mx-1
-            "
-            >Contato</router-link
-          >
+            Sobre
+          </router-link>
         </div>
       </div>
-    </nav>
+    </header>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -69,6 +105,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>
