@@ -16,19 +16,30 @@
       <!-- <img src="" alt="" /> -->
       <div
         class="
-          p-8
+          p-6
           text-2xl text-white
           bg-purple-300 bg-opacity-50
           rounded-xl
           mr-12
+          font-light
         "
       >
-        BuyPizza
+        🍕 BuyPizza
       </div>
       <div
         classs="flex flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 "
       >
-        <h3 class="flex lg:text-7xl font-semibold text-white md:text-4xl mb-14">
+        <h3
+          class="
+            flex
+            lg:text-7xl
+            sm:text-2xl
+            text-white
+            md:text-4xl
+            mb-14
+            font-poppins
+          "
+        >
           Pedidos online
         </h3>
         <div class="mt-6 text-5xl text-gray-50 md:text-light font-extralight">
