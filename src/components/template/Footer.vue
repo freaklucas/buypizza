@@ -159,6 +159,7 @@
                   hover:text- hover:text-purple-300
                   cursor-pointer
                   hover:border-indigno-600
+                  selection:bg-pink-200
                 "
                 >GitHub</a
               >
@@ -181,7 +182,9 @@
       circle
     "
   >
-    <h3 class="text-bold">COPYRIGHT © 2022 Eu que fiz :)</h3>
+    <h3 class="text-bold selection:bg-yellow-300 selection:text-black">
+      COPYRIGHT © 2022 Eu que fiz :)
+    </h3>
   </div>
 </template>
 
