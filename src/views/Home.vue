@@ -13,7 +13,6 @@
         custom-img
       "
     >
-      <!-- <img src="" alt="" /> -->
       <div
         class="
           p-6
