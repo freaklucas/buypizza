@@ -1,9 +1,8 @@
 <template>
   <div>
-    <img src="../../assets/loading.gif" alt="gif de carregamento" />
+    <img src="../../assets/loading.gif" />
   </div>
 </template>
-
 <script>
 export default {
   name: "Spinner",
