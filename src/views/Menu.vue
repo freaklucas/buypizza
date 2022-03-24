@@ -11,7 +11,7 @@
       grid
       sm:grid-cols-1
       md:grid-cols-3
-      lg:grid-cols-4
+      lg:grid-cols-3
     "
   >
     <div class="each mb-10 m-2 shadow-lg border-gray-800 bg-gray-100 relative">

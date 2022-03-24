@@ -23,7 +23,7 @@
           font-light
         "
       >
-        🍕 BuyPizza
+        BuyPizza
       </div>
       <div
         classs="flex flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 "
