@@ -193,6 +193,72 @@
       </div>
     </div>
   </div>
+  <div
+    class="
+      holder
+      mx-auto
+      w-10/12
+      grid
+      sm:grid-cols-1
+      md:grid-cols-3
+      lg:grid-cols-1
+      shadow-2xl
+    "
+  >
+    <h1
+      class="
+        flex
+        justify-center
+        mb-8
+        rounded-lg
+        text-2xl
+        font-poppins
+        text-gray-900
+      "
+    >
+      Carrinho vazio!!!
+    </h1>
+    <hr />
+
+    <div>
+      <h2
+        class="
+          info-box
+          text-md
+          font-poppins
+          flex
+          justify-center
+          p-1
+          font-semibold
+          text-gray-500
+          ml-2
+        "
+      >
+        Calabresa
+      </h2>
+      <p class="flex justify-center">Total $ 58</p>
+      <div class="flex justify-center mb-12 mt-4">
+        <button
+          class="
+            bg-green-600
+            px-2
+            py-2
+            hover:bg-green-700
+            rounded
+            mr-2
+            font-poppins
+          "
+        >
+          Finalizar
+        </button>
+        <button
+          class="bg-red-600 px-2 py-2 hover:bg-red-700 rounded font-poppins"
+        >
+          Cancelar
+        </button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
