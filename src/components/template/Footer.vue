@@ -12,9 +12,9 @@
               uppercase
               dark:text-white
               gap-8
-              hover:text- hover:text-purple-400
+              hover:text- hover:text-red-400
               cursor-pointer
-              hover:border-indigno-700
+              hover:border-red-700
               transition
               duration-500
               ease-in-out
@@ -32,9 +32,9 @@
                 class="
                   text-gray-600
                   dark:text-gray-400
-                  hover:text- hover:text-purple-300
+                  hover:text- hover:text-red-300
                   cursor-pointer
-                  hover:border-indigno-600
+                  hover:border-red-600
                 "
                 >About</a
               >
@@ -48,9 +48,9 @@
                   text-gray-600
                   dark:text-gray-400
                   mb-8
-                  hover:text- hover:text-purple-300
+                  hover:text- hover:text-red-300
                   cursor-pointer
-                  hover:border-indigno-600
+                  hover:border-red-600
                 "
                 >Contact</a
               >
@@ -66,9 +66,9 @@
               text-gray-900
               uppercase
               dark:text-white
-              hover:text- hover:text-purple-400
+              hover:text- hover:text-red-400
               cursor-pointer
-              hover:border-indigno-700
+              hover:border-red-700
               transition
               duration-500
               ease-in-out
@@ -86,9 +86,9 @@
                 class="
                   text-gray-600
                   dark:text-gray-400
-                  hover:text- hover:text-purple-300
+                  hover:text- hover:text-red-300
                   cursor-pointer
-                  hover:border-indigno-600
+                  hover:border-red-600
                 "
                 >Terms</a
               >
@@ -102,9 +102,9 @@
                   text-gray-600
                   dark:text-gray-400
                   mb-8
-                  hover:text- hover:text-purple-300
+                  hover:text- hover:text-red-300
                   cursor-pointer
-                  hover:border-indigno-600
+                  hover:border-red-600
                 "
                 >Privacy</a
               >
@@ -120,9 +120,9 @@
               text-gray-900
               uppercase
               dark:text-white
-              hover:text- hover:text-purple-400
+              hover:text- hover:text-red-400
               cursor-pointer
-              hover:border-indigno-700
+              hover:border-red-700
               transition
               duration-500
               ease-in-out
@@ -140,9 +140,9 @@
                 class="
                   text-gray-600
                   dark:text-gray-400
-                  hover:text- hover:text-purple-300
+                  hover:text- hover:text-red-300
                   cursor-pointer
-                  hover:border-indigno-600
+                  hover:border-red-600
                 "
                 >Twitter</a
               >
@@ -156,9 +156,9 @@
                   text-gray-600
                   dark:text-gray-400
                   mb-8
-                  hover:text- hover:text-purple-300
+                  hover:text- hover:text-red-300
                   cursor-pointer
-                  hover:border-indigno-600
+                  hover:border-red-600
                   selection:bg-pink-200
                 "
                 >GitHub</a
@@ -183,7 +183,7 @@
     "
   >
     <h3 class="text-bold selection:bg-yellow-300 selection:text-black">
-      COPYRIGHT © 2022 Eu que fiz :)
+      COPYRIGHT © 2022 eu que fiz :)
     </h3>
   </div>
 </template>
