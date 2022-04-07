@@ -9,8 +9,8 @@
       w-10/12
       grid
       sm:grid-cols-1
-      md:grid-cols-3
-      lg:grid-cols-3
+      md:grid-cols-2
+      lg:grid-cols-2
     "
   >
     <div
@@ -141,85 +141,12 @@
             rounded
             justify-center
           "
+          @click="clickIncrement()"
         >
           +
         </button>
-        0
-        <button
-          class="
-            mt-2
-            mb-2
-            ml-2
-            bg-gray-700
-            hover:bg-gray-800
-            text-white
-            font-bold
-            py-1
-            px-2
-            rounded
-          "
-        >
-          -
-        </button>
-        <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
-      </div>
-    </div>
-    <div
-      class="
-        each
-        mb-10
-        m-2
-        shadow-lg
-        border-gray-800
-        bg-gray-100
-        relative
-        transition
-        duration-500
-        ease-in-out
-        transform
-        hover:-translate-y-1 hover:scale-110
-      "
-    >
-      <img
-        class="w-full"
-        src="https://media.istockphoto.com/photos/delicious-vegetarian-pizza-on-white-picture-id1192094401?k=20&m=1192094401&s=612x612&w=0&h=jesvXuPyvqM36GQ5QEvJrL3QZjK6YKsziUUF3ZbW0gw="
-        alt=""
-      />
-      <div
-        class="
-          info-box
-          text-md
-          font-poppins
-          flex
-          p-1
-          font-semibold
-          text-gray-500
-          ml-2
-        "
-      >
-        Calabresa
-      </div>
+        {{ counterState.count }}
 
-      <div>
-        <button
-          class="
-            mt-2
-            mb-2
-            ml-2
-            mr-2
-            bg-gray-700
-            hover:bg-gray-800
-            text-white
-            font-bold
-            py-1
-            px-2
-            rounded
-            justify-center
-          "
-        >
-          +
-        </button>
-        0
         <button
           class="
             mt-2
@@ -233,6 +160,7 @@
             px-2
             rounded
           "
+          @click="clickDecrement()"
         >
           -
         </button>
@@ -240,6 +168,7 @@
       </div>
     </div>
   </div>
+
   <div
     class="
       holder

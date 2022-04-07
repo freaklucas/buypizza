@@ -2,7 +2,7 @@ export default {
   namespaced: true,
   state: {
     counter: {
-      count: 1,
+      count: 0,
     },
   },
   mutations: {
