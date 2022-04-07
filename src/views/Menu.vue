@@ -2,7 +2,6 @@
   <div class="heading text-center font-poppins text-2xl m-5 text-gray-900">
     Selecione o sabor favorito!
   </div>
-
   <div
     class="
       holder
@@ -65,10 +64,12 @@
             rounded
             justify-center
           "
+          @click="clickIncrement()"
         >
           +
         </button>
-        0
+        {{ counterState.count }}
+
         <button
           class="
             mt-2
@@ -82,6 +83,7 @@
             px-2
             rounded
           "
+          @click="clickDecrement()"
         >
           -
         </button>
@@ -307,8 +309,19 @@
 </template>
 
 <script>
-export default {};
-</script>
+import { mapGetters } from "vuex";
 
-<style>
-</style>
+export default {
+  methods: {
+    clickIncrement() {
+      this.$store.dispatch("counterModule/incrementCounter");
+    },
+    clickDecrement() {
+      this.$store.dispatch("counterModule/decrementCounter");
+    },
+  },
+  computed: mapGetters({
+    counterState: "getCounterState",
+  }),
+};
+</script>
