@@ -51,7 +51,7 @@
             justify-center
           "
         >
-          -
+          +
         </button>
         0
         <button
@@ -68,7 +68,7 @@
             rounded
           "
         >
-          +
+          -
         </button>
         <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
       </div>
@@ -110,7 +110,7 @@
             justify-center
           "
         >
-          -
+          +
         </button>
         0
         <button
@@ -127,7 +127,7 @@
             rounded
           "
         >
-          +
+          -
         </button>
         <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
       </div>
@@ -170,7 +170,7 @@
             justify-center
           "
         >
-          -
+          +
         </button>
         0
         <button
@@ -187,7 +187,7 @@
             rounded
           "
         >
-          +
+          -
         </button>
         <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
       </div>
