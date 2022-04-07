@@ -14,7 +14,22 @@
       lg:grid-cols-3
     "
   >
-    <div class="each mb-10 m-2 shadow-lg border-gray-800 bg-gray-100 relative">
+    <div
+      class="
+        each
+        mb-10
+        m-2
+        shadow-lg
+        border-gray-800
+        bg-gray-100
+        relative
+        transition
+        duration-500
+        ease-in-out
+        transform
+        hover:-translate-y-1 hover:scale-110
+      "
+    >
       <img
         class="w-full"
         src="https://media.istockphoto.com/photos/delicious-vegetarian-pizza-on-white-picture-id1192094401?k=20&m=1192094401&s=612x612&w=0&h=jesvXuPyvqM36GQ5QEvJrL3QZjK6YKsziUUF3ZbW0gw="
@@ -73,7 +88,22 @@
         <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
       </div>
     </div>
-    <div class="each mb-10 m-2 shadow-lg border-gray-800 bg-gray-100 relative">
+    <div
+      class="
+        each
+        mb-10
+        m-2
+        shadow-lg
+        border-gray-800
+        bg-gray-100
+        relative
+        transition
+        duration-500
+        ease-in-out
+        transform
+        hover:-translate-y-1 hover:scale-110
+      "
+    >
       <img
         class="w-full"
         src="https://media.istockphoto.com/photos/delicious-vegetarian-pizza-on-white-picture-id1192094401?k=20&m=1192094401&s=612x612&w=0&h=jesvXuPyvqM36GQ5QEvJrL3QZjK6YKsziUUF3ZbW0gw="
@@ -132,7 +162,22 @@
         <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
       </div>
     </div>
-    <div class="each mb-10 m-2 shadow-lg border-gray-800 bg-gray-100 relative">
+    <div
+      class="
+        each
+        mb-10
+        m-2
+        shadow-lg
+        border-gray-800
+        bg-gray-100
+        relative
+        transition
+        duration-500
+        ease-in-out
+        transform
+        hover:-translate-y-1 hover:scale-110
+      "
+    >
       <img
         class="w-full"
         src="https://media.istockphoto.com/photos/delicious-vegetarian-pizza-on-white-picture-id1192094401?k=20&m=1192094401&s=612x612&w=0&h=jesvXuPyvqM36GQ5QEvJrL3QZjK6YKsziUUF3ZbW0gw="
