@@ -141,7 +141,7 @@
             rounded
             justify-center
           "
-          @click="clickIncrement()"
+          @click="clickIncrementBy(2)"
         >
           +
         </button>
@@ -247,6 +247,11 @@ export default {
     },
     clickDecrement() {
       this.$store.dispatch("counterModule/decrementCounter");
+    },
+    clickIncrementBy(value) {
+      this.$store.dispatch("counterModule/incrementCounterBy", {
+        value: value,
+      });
     },
   },
   computed: mapGetters({
