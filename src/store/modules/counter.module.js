@@ -3,12 +3,20 @@ export default {
   state: {
     counter: {
       count: 0,
+      countEspecial: 0,
     },
   },
   mutations: {
     INCREMENT_COUNTER: function (state) {
       state.counter.count = state.counter.count + 1;
     },
+    INCREMENT_COUNTER_ESPECIAL: function (state) {
+      state.counter.countEspecial = state.counter.countEspecial + 1;
+    },
+    DECREMENT_COUNTER_ESPECIAL: function (state) {
+      state.counter.countEspecial = state.counter.countEspecial - 1;
+    },
+
     DECREMENT_COUNTER: function (state) {
       state.counter.count = state.counter.count - 1;
     },
@@ -19,6 +27,12 @@ export default {
   actions: {
     incrementCounter: function ({ commit }) {
       return commit("INCREMENT_COUNTER");
+    },
+    incrementCounterEspecial: function ({ commit }) {
+      return commit("INCREMENT_COUNTER_ESPECIAL");
+    },
+    decrementCounterEspecial: function ({ commit }) {
+      return commit("DECREMENT_COUNTER_ESPECIAL");
     },
     decrementCounter: function ({ commit }) {
       return commit("DECREMENT_COUNTER");

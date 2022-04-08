@@ -141,11 +141,11 @@
             rounded
             justify-center
           "
-          @click="clickIncrementBy(2)"
+          @click="clickIncrementEspecial()"
         >
           +
         </button>
-        0
+        {{ counterState.countEspecial }}
         <button
           class="
             mt-2
@@ -211,7 +211,9 @@
       >
         Calabresa
       </h2>
-      <p class="flex justify-center">Total: {{ counterState.count * 55 }}</p>
+      <p class="flex justify-center">
+        Total: {{ counterState.count * 55 + counterState.countEspecial * 55 }}
+      </p>
       <div class="flex justify-center mb-12 mt-4">
         <button
           class="
@@ -246,6 +248,12 @@ export default {
     },
     clickDecrement() {
       this.$store.dispatch("counterModule/decrementCounter");
+    },
+    clickDecrementEspecial() {
+      this.$store.dispatch("counterModule/decrementCounterEspecial");
+    },
+    clickIncrementEspecial() {
+      this.$store.dispatch("counterModule/incrementCounterEspecial");
     },
     clickIncrementBy(value) {
       this.$store.dispatch("counterModule/incrementCounterBy", {
