@@ -123,7 +123,7 @@
           ml-2
         "
       >
-        Calabresa
+        Calabresa Especial
       </div>
       <div>
         <button
@@ -145,8 +145,7 @@
         >
           +
         </button>
-        {{ counterState.count }}
-
+        0
         <button
           class="
             mt-2
@@ -212,7 +211,7 @@
       >
         Calabresa
       </h2>
-      <p class="flex justify-center">Total $ 58</p>
+      <p class="flex justify-center">Total: {{ counterState.count * 55 }}</p>
       <div class="flex justify-center mb-12 mt-4">
         <button
           class="
