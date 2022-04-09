@@ -190,12 +190,13 @@
         font-poppins
         text-gray-900
       "
+      v-if="counterState.count === 0"
     >
       Carrinho vazio!!!
     </h1>
     <hr />
 
-    <div>
+    <div v-if="counterState.count > 0">
       <h2
         class="
           info-box
