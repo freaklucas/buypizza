@@ -190,13 +190,13 @@
         font-poppins
         text-gray-900
       "
-      v-if="counterState.count === 0"
+      v-if="counterState.count === 0 && counterState.countEspecial === 0"
     >
-      Carrinho vazio!!!
+      🛒 Carrinho vazio!!!
     </h1>
     <hr />
 
-    <div v-if="counterState.count > 0">
+    <div v-if="counterState.count >= 1 || counterState.countEspecial >= 1">
       <h2
         class="
           info-box
@@ -210,7 +210,7 @@
           ml-2
         "
       >
-        Calabresa
+        Calabresa | Calabresa Especial
       </h2>
       <p class="flex justify-center">
         Total: {{ counterState.count * 55 + counterState.countEspecial * 55 }}
