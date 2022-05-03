@@ -26,17 +26,18 @@
         BuyPizza
       </div>
       <div
-        classs="flex flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 "
+        classs="flex flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 sm:text-center"
       >
         <h3
           class="
             flex
+            text-center
             lg:text-7xl
-            sm:text-2xl
             text-white
             md:text-4xl
             mb-14
             font-poppins
+            sm:text-6xl
           "
         >
           Pedidos online

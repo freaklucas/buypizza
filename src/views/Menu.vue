@@ -1,5 +1,7 @@
 <template>
-  <div class="heading text-center font-poppins text-2xl m-5 text-gray-900">
+  <div
+    class="heading text-center font-poppins text-2xl m-5 text-gray-900 mb-10"
+  >
     Selecione o sabor favorito!
   </div>
   <div
@@ -163,7 +165,7 @@
         >
           -
         </button>
-        <p class="bg-gray-100 circle-lg flex ml-2">$55</p>
+        <p class="bg-gray-100 circle-lg flex ml-2">$60</p>
       </div>
     </div>
   </div>
@@ -185,6 +187,7 @@
         flex
         justify-center
         mb-8
+        mt-8
         rounded-lg
         text-2xl
         font-poppins
@@ -213,9 +216,9 @@
         Calabresa | Calabresa Especial
       </h2>
       <p class="flex justify-center">
-        Total: {{ counterState.count * 55 + counterState.countEspecial * 55 }}
+        Total: {{ counterState.count * 55 + counterState.countEspecial * 60 }}
       </p>
-      <div class="flex justify-center mb-12 mt-4">
+      <div class="flex justify-center mb-12 mt-4 mb-12">
         <button
           class="
             bg-green-600
@@ -226,14 +229,29 @@
             mr-2
             font-poppins
           "
+          @click="submitPizza"
         >
           Finalizar
         </button>
         <button
           class="bg-red-600 px-2 py-2 hover:bg-red-700 rounded font-poppins"
+          @click="resetPizza"
         >
           Cancelar
         </button>
+      </div>
+      <div
+        v-show="active && counterState.count >= 1"
+        class="
+          flex
+          justify-center
+          mb-12
+          mt-4
+          font-poppins
+          text-xl text-gray-900
+        "
+      >
+        😁 Espero que goste da nossa pizza!
       </div>
     </div>
   </div>
@@ -243,6 +261,11 @@
 import { mapGetters } from "vuex";
 
 export default {
+  data: function () {
+    return {
+      active: false,
+    };
+  },
   methods: {
     clickIncrement() {
       this.$store.dispatch("counterModule/incrementCounter");
@@ -260,6 +283,14 @@ export default {
       this.$store.dispatch("counterModule/incrementCounterBy", {
         value: value,
       });
+    },
+    submitPizza() {
+      setTimeout(() => {
+        this.active = !this.active;
+      }, 3000);
+    },
+    resetPizza() {
+      this.$store.dispatch("counterModule/resetCounter");
     },
   },
   computed: mapGetters({

@@ -23,6 +23,9 @@ export default {
     INCREMENT_COUNTER_BY: function (state, payload) {
       state.counter.count = state.counter.count + payload.value;
     },
+    RESET_COUNTER: function (state) {
+      state.counter.count = 0;
+    },
   },
   actions: {
     incrementCounter: function ({ commit }) {
@@ -39,6 +42,9 @@ export default {
     },
     incrementCounterBy: function ({ commit }, payload) {
       return commit("INCREMENT_COUNTER_BY", payload);
+    },
+    resetCounter: function ({ commit }) {
+      return commit("RESET_COUNTER");
     },
   },
 };
