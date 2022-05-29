@@ -27,7 +27,6 @@
           <ul>
             <li class="mb-4">
               <a
-                href="https://flowbite.com"
                 target="_blank"
                 class="
                   text-gray-600
@@ -41,7 +40,6 @@
             </li>
             <li>
               <a
-                href="https://tailwindcss.com/"
                 target="_blank"
                 rel="nofollow"
                 class="
@@ -81,7 +79,6 @@
           <ul>
             <li class="mb-4">
               <a
-                href="https://flowbite.com"
                 target="_blank"
                 class="
                   text-gray-600
@@ -95,7 +92,6 @@
             </li>
             <li>
               <a
-                href="https://tailwindcss.com/"
                 target="_blank"
                 rel="nofollow"
                 class="
@@ -135,7 +131,6 @@
           <ul>
             <li class="mb-4">
               <a
-                href="https://flowbite.com"
                 target="_blank"
                 class="
                   text-gray-600
@@ -149,7 +144,6 @@
             </li>
             <li>
               <a
-                href="https://tailwindcss.com/"
                 target="_blank"
                 rel="nofollow"
                 class="
