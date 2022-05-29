@@ -14,6 +14,11 @@ const routes = [
     name: "Menu",
     component: Menu,
   },
+  {
+    path: "/buy",
+    name: "Buy",
+    component: Buy,
+  },
 ];
 
 const router = createRouter({
