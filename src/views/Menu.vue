@@ -288,6 +288,8 @@ export default {
       setTimeout(() => {
         this.active = !this.active;
       }, 3000);
+
+      this.$router.push("/buy");
     },
     resetPizza() {
       this.$store.dispatch("counterModule/resetCounter");
